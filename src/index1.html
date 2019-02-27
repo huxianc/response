@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>成都理工大学社团联合会</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--<link rel="stylesheet" href="css/normalize.css.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="js/vendor/OwlCarousel2-2.2.0/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/vendor/OwlCarousel2-2.2.0/dist/assets/owl.theme.default.min.css">
+
+    <script>
+        window.onload=function(){
+            var aLi=document.getElementsByTagName('li');
+
+            for(var i=0; i<aLi.length; i++){
+                aLi[i].onmouseover=function(){
+                    //鼠标经过一级菜单，二级菜单动画下拉显示出来
+                    var subNav=this.getElementsByTagName("ul")[0];
+                    subNav.className='';
+                    //alert(subNav.innerHTML);
+                }
+                //鼠标离开菜单，二级菜单动画收缩起来。
+                aLi[i].onmouseout=function(){
+                    var subNav=this.getElementsByTagName("ul")[0];
+                    subNav.className="subNav";
+                }
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+<!--[if lte IE8]>
+<p class="browseupgrade">您的浏览器版本过低，请到<a href="http://browsehappy.com">这里</a>更新，以获得最佳体验</p>
+<![endif]-->
+
+<header>
+    <nav class="top clearfix">
+        <a href="#" class="brand "><img src="images/index-logo1.png" alt="回到首页"> </a>
+        <ul class="top-l clearfix">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">社联介绍</a></li>
+            <li><a href="#">社联资讯</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+        <ul class="top-r clearfix">
+            <li><a href="#">登入</a></li>
+            <li><a href="#">注册</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <section class="container-top">
+        <div class="ad">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="images/slide-01.png">
+            </div>
+            <div class="item">
+                <img src="images/shiwu.png">
+            </div>
+            <div class="item">
+                <img src="images/shuhuazhan.png">
+            </div>
+            <div class="item">
+                <img src="images/shuangdanpa.png">
+            </div>
+        </div>
+        </div>
+        <div class="discussion">
+            <h4>社联有你更精彩</h4>
+            <ul class="discussion-r clearfix">
+                <li><a href="#"><img src="images/insufficient.png"><p>社联有哪些不足？</p></a></li>
+                <li><a href="#"><img src="images/activities.png"><p>你希望社联多组织哪些活动？</p> </a></li>
+                <li><a href="#"><img src="images/suggestions.png"><p>你对社联有什么建议？</p> </a></li>
+            </ul>
+        </div>
+    </section>
+    <div class="main-section clearfix">
+        <ul class="nav clearfix">
+            <li><a href="/" class="active">全部</a></li>
+            <li><a href="/">实践服务类</a>
+                <ul class="subNav clearfix">
+                    <li><a href="#">12333333</a></li>
+                    <li><a href="#">1333333333</a></li>
+                    <li><a href="#">13133333</a></li>
+                    <li><a href="#">1fsfds</a></li>
+                </ul>
+            </li>
+            <li><a href="/">体育健身类</a>
+                <ul class="subNav">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">1</a></li>
+                </ul>
+            </li>
+            <li><a href="/">文化艺术类</a>
+                <ul class="subNav">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">1</a></li>
+                </ul>
+            </li>
+            <li><a href="/">学术科技类</a>
+                <ul class="subNav">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">1</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="input-group clearfix">
+        <label class="fa fa-search" for="searchBox"></label>
+        <input type="text" class="form-control"  data-url="/" id="searchBox" placeholder="搜索">
+    </div>
+    </div>
+    <div class="activities-list clearfix">
+
+        <div class="list-item">
+            <div class="caption">
+                <a href="#" target="_blank" title="社团之夜放票开始">
+                    <img src="images/shetuanzhiye.png" alt="社团之夜放票开始">
+                    <p>社团之夜放票开始</p>
+                </a>
+
+                <div class="pull">
+                    <span>社联</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="caption">
+                <a href="#" target="_blank" title="计算机技能大赛">
+                    <img src="images/jisuanjijinengdasai.png" alt="计算机技能大赛">
+                    <p>计算机技能大赛</p>
+                </a>
+
+                <div class="pull">
+                    <span>计算机与网络科技协会</span>
+
+                </div>
+            </div>
+        </div>
+        <div class=" list-item">
+            <div class="caption">
+                <a href="#" target="_blank" title="爱心支教">
+                    <img src="images/aixinzhijiao.png" alt="爱心支教">
+                    <p>爱心支教</p>
+                </a>
+
+                <div class="pull">
+                    <span>环境与发展协会</span>
+
+                </div>
+            </div>
+        </div>
+        <div class=" list-item">
+            <div class="caption">
+                <a href="#" target="_blank" title="换届大会">
+                    <img src="images/huanjiedahui.png" alt="换届大会">
+                    <p>换届大会</p>
+                </a>
+
+                <div class="pull">
+                    <span>开源硬件协会</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="caption">
+                <a href="#" target="_blank" title="双人舞会">
+                    <img src="images/shuangrenwuhui.png" alt="双人舞会">
+                    <p>双人舞会</p>
+                </a>
+
+                <div class="pull">
+                    <span>体育舞蹈协会</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="caption">
+                <a href="#" target="_blank" title="一起轮滑">
+                    <img src="images/yiqilunhua.png" alt="一起轮滑">
+                    <p>一起轮滑</p>
+                </a>
+
+                <div class="pull">
+                    <span>X-Sun轮滑协会</span>
+
+                </div>
+            </div>
+        </div>
+        <div class=" list-item">
+            <div class="caption">
+                <a href="#" target="_blank" title="四川省十五届台球大赛">
+                    <img src="images/shiwu.png" alt="四川省十五届台球大赛">
+                    <p>四川省十五届台球大赛</p>
+                </a>
+
+                <div class="pull">
+                    <span>台球协会</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="caption">
+                <a href="#" target="_blank" title="“双旦趴”">
+                    <img src="images/shuangdanpa.png" alt="“双旦趴”">
+                    <p>“双旦趴”</p></a>
+
+                <div class="pull">
+                    <span>网球协会</span>
+
+                </div>
+            </div>
+        </div>
+        <div class=" list-item">
+            <div class="caption">
+                <a href="#" target="_blank" title="书画展">
+                    <img src="images/shuhuazhan.png" alt="书画展">
+                    <p>书画展</p>
+                </a>
+
+                <div class="pull">
+                    <span>书画协会</span>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <a class="load-more  clearfix" data-disable-width="加载中..."><p>点击加载更多</p></a>
+</div>
+
+<footer>
+    <div class="container-f">
+        <div class="pull-left">
+            <ul class="concat clearfix">
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="images/weibo-logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a class="weixin" href="#">
+                        <img alt="社联" src="images/weixin-logo.png">
+                        <!--<div class="weixin_qrd">-->
+                        <!--<img alt="社联微信" src="#">-->
+                        <!--</div>-->
+                    </a>
+                </li>
+                <li><a href="#" target="blank">友情链接</a></li>
+                <li><a href="#" target="blank">关于我们</a></li>
+                <li><a href="#" target="blank">加入我们</a></li>
+                <li><a href="#" target="blank">FAQ</a></li>
+            </ul>
+            <ul class="site_info clearfix">
+                <li>Copyright©2016成都理工大学社团联合会</li>
+            </ul>
+        </div>
+        <div class="pull-right">
+            <div class="media">
+                <a href="/">
+                    <img src="images/footer-logo.png" alt="logo" class="media-object">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+<script src="js/vendor/OwlCarousel2-2.2.0/dist/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
